@@ -17,7 +17,7 @@ function CoachCard({ coach }) {
                     alt={coach.name}
                     className="
             w-full
-            h-105
+            h-auto
             object-cover
             transition
             duration-500

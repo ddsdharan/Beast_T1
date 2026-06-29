@@ -6,13 +6,13 @@ function About() {
             <div className="max-w-7xl mx-auto px-8">
                 <div className="grid lg:grid-cols-2 gap-16 items-center">
                     <div>
-                        <h2 className="text-red-600 text-6xl font-extrabold uppercase mb-4">
+                        <h2 className="text-red-600 text-center text-6xl font-extrabold uppercase mb-4">
                             ABOUT US
                         </h2>
-                        <h3 className="uppercase text-2xl font-medium text-gray-800 mb-8">
+                        <h3 className="uppercase text-2xl text-center font-medium text-gray-800 mb-8">
                             Know More To Be More With Us
                         </h3>
-                        <p className="text-gray-600 leading-10 text-lg">
+                        <p className="text-gray-600 text-center leading-10 text-lg">
                             Lorem ipsum dolor sit amet consectetur.
                             Non faucibus ut turpis magnis suscipit.
                             Lorem etiam sem condimentum ultrices mauris lacus.

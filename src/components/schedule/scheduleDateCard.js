@@ -6,7 +6,7 @@ function ScheduleDateCard() {
             className="
         bg-red-600
         h-70
-        w-70
+        w-auto
         text-white
         flex
         flex-col

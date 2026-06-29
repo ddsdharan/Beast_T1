@@ -11,7 +11,7 @@ function ScheduleCard({
         overflow-hidden
         group
         h-70
-        w-70
+        w-auto
         cursor-pointer
       "
         >

@@ -2,7 +2,7 @@ import { FaPlay } from "react-icons/fa";
 
 export default function VideoButton() {
     return (
-        <div className="absolute left-24 top-1/2 -translate-y-1/2 flex flex-col items-center">
+        <div className="absolute left-24 top-1/4 -translate-y-1/4 flex flex-col items-center">
             <button
                 className="
           w-32 h-32

@@ -1,14 +1,18 @@
 import { useState } from "react";
 import PricingCard from "../joinNowSection/pricingCard";
 
-import { ArrowRight, Dumbbell, Activity, TrendingUp, } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+
+import BasicIcon from "../../assets/logos/Property 1=Basic.png";
+import AdvancedIcon from "../../assets/logos/Property 1=Advanced.png";
+import PremiumIcon from "../../assets/logos/Property 1=Premium.png";
 
 const plans = [
     {
         id: "basic",
         name: "BASIC",
         price: 9.99,
-        icon: <Dumbbell size={60} />,
+        icon: BasicIcon,
         features: [
             "Personal Trainer",
             "Service Locker Rooms",
@@ -20,7 +24,7 @@ const plans = [
         id: "premium",
         name: "PREMIUM",
         price: 24.99,
-        icon: <Activity size={60} />,
+        icon: AdvancedIcon,
         features: [
             "Personal Trainer",
             "Service Locker Rooms",
@@ -32,7 +36,7 @@ const plans = [
         id: "advanced",
         name: "ADVANCED",
         price: 14.99,
-        icon: <TrendingUp size={60} />,
+        icon: PremiumIcon,
         features: [
             "Personal Trainer",
             "Service Locker Rooms",
@@ -89,8 +93,6 @@ function JoinNow() {
 
                 </div>
 
-                {/* Cards */}
-
                 <div
                     className="
             grid
@@ -108,8 +110,6 @@ function JoinNow() {
                         />
                     ))}
                 </div>
-
-                {/* Enroll Button */}
 
                 <div
                     className="

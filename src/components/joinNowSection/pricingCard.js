@@ -21,27 +21,10 @@ function PricingCard({ plan, selectedPlan, onSelect, }) {
       `}
         >
             <div className="p-12 text-center">
-                <h3
-                    className=" 
-            font-bebas 
-            text-5xl 
-            text-red-600 
-            tracking-wide 
-            mb-12 
-          "
-                >
+                <h3 className="text-5xl text-red-600 tracking-wide mb-12">
                     {plan.name}
                 </h3>
-                <img
-                    src={plan.icon}
-                    alt={plan.name}
-                    className=" 
-            w-16 
-            h-16 
-            mx-auto 
-            mb-12 
-          "
-                />
+                <img src={plan.icon} alt={plan.name} className="w-20 h-20 object-contain mx-auto mb-12" />
                 <div className="space-y-3">
                     {plan.features.map((feature) => (
                         <p
@@ -56,14 +39,7 @@ function PricingCard({ plan, selectedPlan, onSelect, }) {
                         </p>
                     ))}
                 </div>
-                <div
-                    className=" 
-            mt-14 
-            text-red-600 
-            font-bebas 
-            text-5xl 
-          "
-                >
+                <div className="mt-5 text-red-600 text-5xl">
                     ${plan.price}
                     <span className="text-3xl">
                         {" "}
@@ -72,16 +48,7 @@ function PricingCard({ plan, selectedPlan, onSelect, }) {
                 </div>
             </div>
             {isSelected && (
-                <div
-                    className=" 
-            bg-red-600 
-            text-white 
-            text-center 
-            py-3 
-            uppercase 
-            tracking-wider 
-          "
-                >
+                <div className="bg-red-600 text-white text-center py-3 uppercase tracking-wider">
                     Selected Plan
                 </div>
             )}
