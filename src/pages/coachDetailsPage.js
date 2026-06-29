@@ -1,8 +1,14 @@
 import CoachHeroSection from "../components/coachDetails/coachHeroSection";
+import { useEffect } from "react";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/footerSection";
 
-function coachDetailsPage() {
+function CoachDetailsPage() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div>
             <Navbar />
@@ -16,4 +22,4 @@ function coachDetailsPage() {
     )
 }
 
-export default coachDetailsPage;
+export default CoachDetailsPage;
